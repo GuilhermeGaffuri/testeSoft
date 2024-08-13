@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #F7F7F7;
+  padding: 20px;
+}
+
+button {
+  width: 250px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+section{
+    width: 20%;
+    margin: auto;
+    display: flex;
+    border-radius: 25px;
+    flex-direction: column;
+    background-color:rgb(206, 206, 206);
+    padding: 20px;
+}

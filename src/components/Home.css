@@ -1,0 +1,88 @@
+/* Estrutura principal */
+.App {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Formulário */
+  form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 60%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Lista de tarefas */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+  
+  li.completed {
+    background-color: #d0f0fd; /* Azul claro */
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  /* Botões */
+  button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .toggle-button {
+    background-color: #4caf50;
+  }
+  
+  .toggle-button:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Adicionando espaço entre os botões */
+  button:not(:first-child) {
+    margin-left: 10px;
+  }
+  
+  .clear-button {
+    background-color: #008CBA;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .clear-button:hover {
+    background-color: #005f75;
+  }
